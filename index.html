@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseñador Freelancer</title>
+    <link rel="preload" href="./css/normalize.css" as="style">
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="./css/style.css" as="style">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<!-- Header -->
+    <header>
+        <h1 class="titulo">Juan Colmegna <span>Freelancer</span></h1>
+        <div class="nav-bg">
+            <nav class="navegacion-principal contenedor">
+                <a href="#">Inicio</a>
+                <a href="#">Sobre Mí</a>
+                <a href="#">Clientes</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+<!-- seccion ubicacion -->
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2>Diseño y Desarrollo Web <span>Freelancer</span></h2>
+            <div class="ubicacion">
+                <img src="./img/map.svg" alt="icono de mapa">
+                <p>Santa Fe, Argentina</p>
+            </div>
+            <a class="boton" href="#">Contactar</a>
+        </div>
+    </section>
+
+<!-- seccion principal -->
+    <main class="contenedor sombra contenedor-servicios">
+        <h2>Mis Servicios</h2>
+        <div class="servicios">
+            <section class="servicio">
+                <h3>Diseño Web</h3>
+                <div class="iconos">
+                    <img src="./img/paleta.svg" alt="icono de diseño Web">
+                </div>
+                <p>Eaque aliquid facere ullam soluta consectetur dolore eligendi corrupti.</p>
+            </section>
+            <section class="servicio">
+                <h3>Aplicaciones Web</h3>
+                <div class="iconos">
+                    <img src="./img/android.svg" alt="icono de android">
+                    <img src="./img/apple.svg" alt="icono apple">
+                </div>
+                <p>Eaque aliquid facere ullam soluta consectetur dolore eligendi corrupti.</p>
+            </section>
+            <section class="servicio">
+                <h3>E-commerce</h3>
+                <div class="iconos">
+                    <img src="./img/ecomerce.svg" alt="icono E-commerce">
+                </div>
+                <p>Eaque aliquid facere ullam soluta consectetur dolore eligendi corrupti.</p>
+            </section>
+        </div>
+        <!-- seccion contacto -->
+            <section class="contenedor-formulario">
+                <h2>Contacto</h2>
+        
+                <form class="formulario">
+                    <fieldset>
+                        <legend>
+                            Contactame llenando todos los campos
+                        </legend>
+                        <div class="contenedor-campos">
+                            <div class="campo">
+                                <label for="nombre">Nombre
+                                    <input class="input-text" type="text" name="nombre" id="nombre" placeholder="Tu Nombre">
+                                </label>
+                            </div>
+                            <div class="campo">
+                                <label for="telefono">Teléfono
+                                    <input class="input-text" type="tel" name="telefono" id="telefono" placeholder="Teléfono">
+                                </label>
+                            </div>
+                            <div class="campo">
+                                <label for="correo">Correo
+                                    <input class="input-text" type="email" name="email" id="correo" placeholder="Tu email">
+                                </label>
+                            </div>
+                            <div class="campo">
+                                <label for="mensaje">Mensaje
+                                    <textarea class="input-text" id="mensaje" placeholder="Dejame tu mensaje"></textarea>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="enviar">
+                            <input class="boton" type="submit" value="Enviar">
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+    </main>
+
+<!-- footer -->
+    <footer class="footer">
+        <p>Todos los derechos reservados. Juan Colmegna Freelancer</p>
+    </footer>
+</body>
+</html>
